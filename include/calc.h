@@ -16,6 +16,6 @@ T Mult(T a, T b) {
     return a * b;
 }
 
-int Div(float a, float b);
+double Div(double a, double b);
 
 #endif

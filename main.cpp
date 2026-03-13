@@ -26,7 +26,12 @@ int main() {
     if (input == 3) {
       std::cout << "A / B  Input A, and B\n";
       std::cin >> a >> b;
-      std::cout << Div(a, b) << "\n";
+      try {
+        std::cout << Div(a, b) << "\n";
+      }
+      catch (...) {
+        std::cout << "Can not divide by 0\n";
+      }
     }
     if (input == 4) {
       std::cout << "A - B  Input A, and B\n";
