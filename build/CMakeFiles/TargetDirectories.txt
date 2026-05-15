@@ -1,6 +1,0 @@
-/home/thebestkra/TP/simplecalc/simplecalc/build/CMakeFiles/flow_calc.dir
-/home/thebestkra/TP/simplecalc/simplecalc/build/CMakeFiles/edit_cache.dir
-/home/thebestkra/TP/simplecalc/simplecalc/build/CMakeFiles/rebuild_cache.dir
-/home/thebestkra/TP/simplecalc/simplecalc/build/src/CMakeFiles/flow_h.dir
-/home/thebestkra/TP/simplecalc/simplecalc/build/src/CMakeFiles/edit_cache.dir
-/home/thebestkra/TP/simplecalc/simplecalc/build/src/CMakeFiles/rebuild_cache.dir
