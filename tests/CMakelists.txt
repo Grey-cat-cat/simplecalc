@@ -1,0 +1,9 @@
+find_package(GTest QUIET CONFIG)
+
+add_exequtable(test_calc test_calc.cpp)
+
+terget_linc_libraries(test_calc PRIVATE calc GTest::gtest_main)
+
+include(GoogleTest)
+
+gtest_discover_tests(test_calc)

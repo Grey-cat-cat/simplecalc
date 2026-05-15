@@ -1,0 +1,2 @@
+/usr/bin/ar qc libflow_lib.a CMakeFiles/flow_lib.dir/flow.cpp.o
+/usr/bin/ranlib libflow_lib.a
