@@ -1,1 +1,24 @@
-s
+version: '3.8'
+
+services:
+
+  app:
+    build:
+      .
+    image:
+      flow_calc:latest
+    container_name:
+      flow_calc_app
+    stdin_open: true # ввод cin
+    tty: true # терминал
+
+  tests:
+    build:
+      .
+    image:
+      flow_calc:latest
+    container_name:
+      flow_calc_tests
+    command: /flow_app/build/tests/flow_tests
+    environment:
+      - GTEST_COLOR=1   # цветной вывод тестов
