@@ -6,7 +6,7 @@ services:
     build:
       .
     image:
-      flow_calc:latest
+      flow_calc
     container_name:
       flow_calc_app
     stdin_open: true # ввод cin
@@ -16,7 +16,7 @@ services:
     build:
       .
     image:
-      flow_calc:latest
+      flow_calc
     container_name:
       flow_calc_tests
     command: /flow_app/build/tests/flow_tests
